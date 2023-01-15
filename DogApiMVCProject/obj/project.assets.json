@@ -9102,11 +9102,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pante\\source\\repos\\DogApiMVCProject\\DogApiMVCProject\\DogApiMVCProject.csproj",
+      "projectUniqueName": "C:\\source\\DogWebApiMVC\\DogApiMVCProject\\DogApiMVCProject.csproj",
       "projectName": "DogApiMVCProject",
-      "projectPath": "C:\\Users\\Pante\\source\\repos\\DogApiMVCProject\\DogApiMVCProject\\DogApiMVCProject.csproj",
+      "projectPath": "C:\\source\\DogWebApiMVC\\DogApiMVCProject\\DogApiMVCProject.csproj",
       "packagesPath": "C:\\Users\\Pante\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pante\\source\\repos\\DogApiMVCProject\\DogApiMVCProject\\obj\\",
+      "outputPath": "C:\\source\\DogWebApiMVC\\DogApiMVCProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pante\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eHLxPQs0iL/07IYfEQU24lSR7QSYAHCzMoBLA0bAto+7UyQBm/rrNJWETHzZ3k167LF5fe7H/i2dVQuLtdx+fg==",
+  "dgSpecHash": "5jCNACq+8QpDFbA6UsRzqok6dW+7ywRCtw3LrvmthYT8aseAo8QBm8KI29b2vodQN4tHN4xtTkiDyuKtVhwIcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pante\\source\\repos\\DogApiMVCProject\\DogApiMVCProject\\DogApiMVCProject.csproj",
+  "projectFilePath": "C:\\source\\DogWebApiMVC\\DogApiMVCProject\\DogApiMVCProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pante\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Pante\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
