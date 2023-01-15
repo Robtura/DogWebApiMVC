@@ -1,0 +1,63 @@
+﻿@model DogApiMVCProject.Models.RegForm
+
+@{
+    ViewData["Title"] = "GetData";
+}
+
+<h1>GetData</h1>
+
+<h4>RegForm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="GetData">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Registrationid" class="control-label"></label>
+                <input asp-for="Registrationid" class="form-control" />
+                <span asp-validation-for="Registrationid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DogName" class="control-label"></label>
+                <input asp-for="DogName" class="form-control" />
+                <span asp-validation-for="DogName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DogBreed" class="control-label"></label>
+                <input asp-for="DogBreed" class="form-control" />
+                <span asp-validation-for="DogBreed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DogAge" class="control-label"></label>
+                <input asp-for="DogAge" class="form-control" />
+                <span asp-validation-for="DogAge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DogHeight" class="control-label"></label>
+                <input asp-for="DogHeight" class="form-control" />
+                <span asp-validation-for="DogHeight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DogLength" class="control-label"></label>
+                <input asp-for="DogLength" class="form-control" />
+                <span asp-validation-for="DogLength" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DogWeight" class="control-label"></label>
+                <input asp-for="DogWeight" class="form-control" />
+                <span asp-validation-for="DogWeight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
